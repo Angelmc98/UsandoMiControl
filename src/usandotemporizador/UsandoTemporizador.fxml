@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import temporizador.Temporizador?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="198.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="usandotemporizador.UsandoTemporizadorController">
+   <children>
+      <Temporizador fx:id="temporizador" layoutX="44.0" layoutY="56.0" onAction="#onAction" />
+      <Label fx:id="label" layoutX="58.0" layoutY="134.0" prefHeight="17.0" prefWidth="181.0" />
+   </children>
+</AnchorPane>
